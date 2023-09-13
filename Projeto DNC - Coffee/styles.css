@@ -1,0 +1,99 @@
+.navbar .nav-link:hover{
+    color: #2a3342;
+    transition: 2s;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*Botão de compra*/
+.comprar {
+  font-weight: 700;
+  font-size: 20px;
+  color: #f6f5fb;
+  background: #2a3342;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 1rem;
+  font-family: "Raleway";
+  height: 0;
+  visibility: hidden;
+  width: 200px;
+}
+
+.comprar:hover {
+  transition: 2s;
+  background-color: #000000;
+}
+
+.card {
+  align-items: center;
+}
+
+.card:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 10px black;
+}
+/* Estilização Modals*/
+.modalAtendimento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  position: relative;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.modalAtendimento h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 39px;
+  margin-bottom: 3rem;
+}
+
+.modalAtendimento p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 200%;
+  }
+
+.modalAtendimento > button:first-of-type {
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  right: 13px;
+  top: 13px;
+}
+
+.modalAtendimento > button:last-of-type {
+    font-weight: 700;
+    font-size: 20px;
+    color: #f6f5fb;
+    background: #2a3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 0.6rem 0.8rem;
+    margin-top: 4rem;
+    font-family: "Raleway";
+}
+
+#modalPlace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(217, 217, 217, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  visibility: hidden;
+}
